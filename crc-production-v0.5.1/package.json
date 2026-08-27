@@ -1,0 +1,30 @@
+{
+  "name": "curriculum-reality-check",
+  "version": "0.5.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:engine": "tsc -p tsconfig.engine.json && node dist-engine/tests/run-sprint1.js",
+    "test:sprint2": "tsc -p tsconfig.engine.json && node dist-engine/tests/run-sprint2.js",
+    "test:sprint3": "tsc -p tsconfig.engine.json && node dist-engine/tests/run-sprint3.js",
+    "test:sprint4": "tsc -p tsconfig.engine.json && node dist-engine/tests/run-sprint4.js",
+    "test:sprint5": "tsc -p tsconfig.engine.json && node dist-engine/tests/run-sprint5.js"
+  },
+  "dependencies": {
+    "next": "16.0.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^4.0.0"
+  }
+}

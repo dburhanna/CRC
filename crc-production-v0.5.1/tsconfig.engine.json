@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "dist-engine",
+    "rootDir": "src",
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/lib/**/*.ts",
+    "src/tests/run-sprint1.ts",
+    "src/tests/run-sprint2.ts",
+    "src/tests/run-sprint3.ts",
+    "src/tests/run-sprint4.ts",
+    "src/tests/run-sprint5.ts"
+  ]
+}
